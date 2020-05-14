@@ -9,4 +9,4 @@ import { Timezone } from "https://raw.githubusercontent.com/wrzonki/deno-timezon
 
 const polishTime = new Timezone();
 polishTime.offset = -120;
-console.log(time.now());
+console.log(polishTime.now());
