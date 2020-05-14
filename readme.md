@@ -5,7 +5,7 @@
 ### Example use:
 
 ```
-import { Timezone } from "./timezone.ts";
+import { Timezone } from "https://raw.githubusercontent.com/wrzonki/deno-timezone/master/timezone.ts";
 
 const polishTime = new Timezone();
 polishTime.offset = -120;
